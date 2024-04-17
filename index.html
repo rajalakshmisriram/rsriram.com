@@ -16,6 +16,10 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
         }
 
         .navbar {
@@ -38,29 +42,30 @@
         }
 
         .about-me {
-            background-color: #fff;
             padding: 20px;
-            border-radius: 5px;
+        }
+
+        .about-me h2 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .about-me p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .profile {
+            text-align: center;
             margin-bottom: 20px;
         }
 
-        .page-links {
-            display: flex;
-            justify-content: space-between;
-            padding: 10px 0;
-        }
-
-        .page-link {
-            background-color: #fff;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            color: #333;
-            transition: background-color 0.3s ease;
-        }
-
-        .page-link:hover {
-            background-color: #ddd;
+        .profile img {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
@@ -76,6 +81,14 @@
     </div>
 
     <div class="container">
+        <div class="profile">
+            <img src="your-photo.jpg" alt="Your Photo">
+        </div>
+        
         <div class="about-me">
             <h2>About Me</h2>
-            <p>I'm a freshman at Stanford Online High School, and I have an extreme passion for neuroscience. My education in many institutions mainly in science and mathematics has supported my passion for STEM. I have experience as an intern in Rice University's precollege program where I focused on Physiology and as an intern at Medical Immersion Spring Academy, where I had the opportunity to gain 5 medical certifications listed in the certification section. Adding on, my experience as the cofounder of Gift Cure, an NPO, founder of Brain Atlas Youtube Channel, and Staff Writer at my high school's newspaper has shaped me to be a responsible leader, an organized person, and a fluent speaker. I not only have experience in science and math, but also have covered LaTeX and basics of Python in middle school. My most notable achievement is a research paper I wrote on various ways to restore myelin sheath in Multiple
+            <p>I'm a freshman at Stanford Online High School, and I have an extreme passion for neuroscience. My education in many institutions mainly in science and mathematics has supported my passion for STEM. I have experience as an intern in Rice University's precollege program where I focused on Physiology and as an intern at Medical Immersion Spring Academy, where I had the opportunity to gain 5 medical certifications listed in the certification section. Adding on, my experience as the cofounder of Gift Cure, an NPO, founder of Brain Atlas Youtube Channel, and Staff Writer at my high school's newspaper has shaped me to be a responsible leader, an organized person, and a fluent speaker. I not only have experience in science and math, but also have covered LaTeX and basics of Python in middle school. My most notable achievement is a research paper I wrote on various ways to restore myelin sheath in Multiple Sclerosis and other demyelinating diseases.</p>
+        </div>
+    </div>
+</body>
+</html>
